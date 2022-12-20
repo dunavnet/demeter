@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  aletnetapi:
+      image: demeter.azurecr.io/dunavnetdemeterapi:latest
+      container_name: aletnet-api
+      restart: always
+      ports:
+        - 8000:80

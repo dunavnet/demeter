@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  transportconditionapi:
+      image: demeter.azurecr.io/dunavnetdemetertransportcondition:latest
+      container_name: transportcondition-api
+      restart: always
+      ports:
+        - 8001:80
