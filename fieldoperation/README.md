@@ -7,7 +7,7 @@ To start API first login to container registry:
 ```
 sudo docker login demeter.azurecr.io
 user: demeter
-pass: dHVlOXWfZ/Ep2x1aj24pyI5jqqggjLR9
+pass: ********** 
 
 ```
 Start API container:
