@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  poultryfeedingapi:
+      image: demeter.azurecr.io/dunavnetdemeterpoultryfeeding:latest
+      container_name: poultryfeeding-api
+      restart: always
+      ports:
+        - 8001:80
