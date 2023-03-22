@@ -8,7 +8,7 @@ To start API first login to container registry:
 ```
 sudo docker login demeter.azurecr.io
 user: demeter
-pass: **********
+pass: Please send a request to info@dunavnet.eu to receive a password
 ```
 Start API container:
 ```
